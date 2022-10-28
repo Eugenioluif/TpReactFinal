@@ -79,12 +79,20 @@ Conectar el proyecto con la base de datos Firebase.
 
 Libreria que utiliza boostrap para el NavBar.
 
-### `npm install react-hook-form`
-
-Libreria que se utiliza para la realizacion del Formulario.
-
 ### `npm i react-scroll-to-top`
 
 Libreria que se utiliza para una animacion de Scroll.
+
+### `npm i react-scroll-to-top`
+
+### `npm install --save styled-components`
+Libreria que se utiliza para estilos.
+
+### `npm i --<z@fortawesome/fontawesome-svg-core`
+### `npm i --save @fortawesome/free-solid-svg-icons`
+### `npm i --save @fortawesome/free-regular-svg-icons`
+### `npm i --save @fortawesome/react-fontawesome@latest`
+
+Libreria que se utiliza para el formulario.
 
 
