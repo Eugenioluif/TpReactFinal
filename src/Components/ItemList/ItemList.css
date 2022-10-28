@@ -1,0 +1,71 @@
+.card{
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    align-items: center; 
+    padding-bottom: 0.5rem; 
+    display: flex;
+}
+
+.card:hover{
+    box-shadow: -2px 6px 18px -1px rgba(0,0,0,0.52);
+    -webkit-box-shadow: -2px 6px 18px -1px rgba(0,0,0,0.52);
+    -moz-box-shadow: -2px 6px 18px -1px rgba(0,0,0,0.52);
+}
+
+.card img{
+    width: 270px;
+    height: 250px;
+    transition: 0.5s;
+    opacity: 0.8;
+    object-fit: cover;
+    margin-bottom: 2rem;
+}
+
+.card img:hover{
+    opacity: 1;
+}
+
+.contenedorItem{
+    margin-left: 7rem;
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.botonCompra{
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 0.12rem;
+    background-color: #ac8809;
+    text-decoration: none;
+    color: white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.botonCompra:hover{
+    color: white;
+    background-color: #ac8809;
+    letter-spacing: 0.15rem;
+    border: gray solid 2px;
+  
+}
+
+.botonCompra:active{
+    border: solid 1px white;
+    background-color: #c99f0b;
+    transform: scale(0.98);
+    text-decoration: none;
+}
+
+
+.elementos{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2rem;
+
+}

@@ -1,0 +1,53 @@
+
+.Botonera{
+    gap: 2rem;
+    border: none;
+    letter-spacing: 0.12rem;
+    min-width: 120px;
+    height: 40px;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    z-index: 0;
+    color: white; 
+    background-color: rgb(32,35, 42);
+    text-decoration: none;
+}
+
+.Botonera:hover{
+    background-color: grey;
+    color: white;
+}
+
+.contenedorBotonera{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+.Activado{
+    gap: 2rem;
+    border: none;
+    letter-spacing: 0.12rem;
+    min-width: 120px;
+    height: 40px;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    z-index: 0;
+    color: white; 
+    background-color: grey;
+    text-decoration: none;
+}

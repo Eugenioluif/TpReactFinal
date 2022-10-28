@@ -1,0 +1,17 @@
+.BotonCarro{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .5rem;
+}
+
+.number{
+    color: white;
+    font-size: 2rem;
+}
+
+
+.cuadrocarrito{
+    text-decoration: none
+}
+

@@ -68,3 +68,23 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+----Librerias Escenciales----
+
+### `npm install firebase`
+
+Conectar el proyecto con la base de datos Firebase.
+
+### `npm install react-bootstrap bootstrap`
+
+Libreria que utiliza boostrap para el NavBar.
+
+### `npm install react-hook-form`
+
+Libreria que se utiliza para la realizacion del Formulario.
+
+### `npm i react-scroll-to-top`
+
+Libreria que se utiliza para una animacion de Scroll.
+
+

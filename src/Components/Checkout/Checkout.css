@@ -1,0 +1,17 @@
+.CrearPedido{
+    border-radius: 3px;
+    background-color: #c99f0b;
+    color: white;
+    width: 15rem;
+    height: 2rem;
+    border-radius: 2%;
+    border: none
+}
+
+.CheckOut{
+    padding-bottom: 30vh;
+}
+
+.CheckOut h1{
+    margin-top: 2rem;
+}

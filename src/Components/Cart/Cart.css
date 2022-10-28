@@ -1,0 +1,100 @@
+.Button {
+    width: auto;
+    margin: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.3rem;
+    background-color: #c99f0b;
+    border-radius: 8px;
+    flex: none;
+    display: inline-block;
+    order: 1;
+    align-self: center;
+    flex-grow: 0;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    border: none;
+    border-style: none;
+    cursor: pointer;
+    outline: inherit;
+    margin-top: 2rem;
+}
+
+.ButtonCheck{
+    width: auto;
+    margin: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    font-size: 1.3rem;
+    background-color: #c99f0b;
+    border-radius: 8px;
+    flex: none;
+    display: inline-block;
+    order: 1;
+    align-self: center;
+    flex-grow: 0;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    border: none;
+    border-style: none;
+    cursor: pointer;
+    outline: inherit;
+}
+
+.ButtonCheck:hover{
+    text-decoration: none;
+    color: white;
+}
+
+
+.PageCart{
+    padding-bottom: 47vh;
+}
+
+.NoItems{
+    margin-top: 2rem;
+}
+
+.NoItemsVisibles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.NoItemsVisibles img{
+    margin-top: 2rem;
+    width: 20%;
+    margin-left: -3rem;
+}
+
+.ButtonVolver{
+        width: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 1.3rem;
+        background-color: #c99f0b;
+        border-radius: 8px;
+        flex: none;
+        display: inline-block;
+        order: 1;
+        align-self: center;
+        flex-grow: 0;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: #FFFFFF;
+        border: none;
+        border-style: none;
+        cursor: pointer;
+        outline: inherit;
+        margin-top: 3rem;
+        padding-right: 8rem;
+        padding-left: 8rem;
+        margin-bottom: 25vh;
+    }
