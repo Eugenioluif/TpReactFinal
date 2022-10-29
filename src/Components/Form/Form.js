@@ -1,6 +1,6 @@
 import CompInput from '../Input/Input';
 import { useState } from "react";
-import {Formulario,Boton,MensajeExito,MensajeError} from './elementosFormulario'
+import {Formulario,MensajeError,Boton,MensajeExito} from './elementosFormulario'
 import { faExclamationTriangle } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -44,10 +44,6 @@ const Form = () => {
       )
         {
         cambiarFormularioValido(true);
-        cambiarNombre({campo: '', valido: null});
-        cambiarApellido({campo: '', valido: null});
-        cambiarEmail1({campo: '', valido: null});
-        cambiarEmail2({campo: '', valido: null});
   
       } else {
         cambiarFormularioValido(false);
@@ -107,6 +103,8 @@ const Form = () => {
 						<b>Error:</b> Por favor rellena el formulario correctamente.
 					</p>
 				</MensajeError>}
+        <Boton type="submit">Validar Datos</Boton>
+				{formularioValido === true && <MensajeExito>Validado exitosamente!</MensajeExito>}
 
     </Formulario>
   );  
